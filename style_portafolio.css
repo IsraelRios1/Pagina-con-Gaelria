@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  margin:0;
+  background: white;
+  font-family: 'Oswald', sans-serif;
+} 
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  height: auto;
+  width: 100vw;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 40px;
+  color: white;
+}
+
+/*HEADER*/
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.objects {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;    
+}
+.objects li {
+  margin: 0 30px;
+}
+.objects a {
+  text-decoration: none;
+  color: #fff;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*modificacion*/
+.objects {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: grey;
+}
+
+
+/*FOOTER*/
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400
+  text-transform capitalize;
+  line-height: 3rem;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: grey;
+}
+.footer-bottom {
+  background: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
